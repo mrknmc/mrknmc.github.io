@@ -1,52 +1,52 @@
-title:            Site Title
-description:      Describe your website.
+title:            mrknmc
+# description:      Describe your website.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
 url:              http://localhost:4000
-disqus_shortname:
+# disqus_shortname:
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           Mark Nemec
   avatar:         bio-photo.jpg
-  bio:            "Describe your self."
-  email:          your@email.com
+  bio:            "Tech fan. Student at The University of Edinburgh."
+  email:          mrknmc@me.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:
-  facebook:
-  github:
-  stackoverflow:
-  linkedin:
-  instagram:
-  lastfm:
-  tumblr:
-  pinterest:
-  foursquare:
-  steam:
-  dribbble:
+  twitter:        mrknmc
+  # facebook:
+  github:         mrknmc
+  # stackoverflow:
+  # linkedin:
+  instagram:      mrknmc
+  # lastfm:
+  # tumblr:
+  # pinterest:
+  # foursquare:
+  # steam:
+  # dribbble:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:
+  # google_plus:
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:
-google_verify:
+# google_analytics:
+# google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+# bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
 links:
   - title: About
     url: /about/
-  - title: Posts
+  - title: Blog
     url: /posts/
-  - title: Theme Setup
-    url: /theme-setup/
-  - title: Made Mistakes
-    url: http://mademistakes.com
-    external: true
+  # - title: Theme Setup
+  #   url: /theme-setup/
+  # - title: Made Mistakes
+  #   url: http://mademistakes.com
+  #   external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Europe/London
 future:      true
 highlighter: pygments
 markdown:    kramdown
