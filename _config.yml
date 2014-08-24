@@ -15,12 +15,12 @@ owner:
   twitter:        mrknmc
   instagram:      mrknmc
   lastfm:         blinker_svk
+  foursquare:     mrknmc
   # facebook:
   # stackoverflow:
   # linkedin:
   # tumblr:
   # pinterest:
-  # foursquare:
   # steam:
   # dribbble:
   # For Google Authorship https://plus.google.com/authorship
@@ -35,12 +35,10 @@ owner:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
-    url: /about/
   - title: Blog
     url: /blog/
-  # - title: Theme Setup
-  #   url: /theme-setup/
+  - title: Feed
+    url: /feed.xml
   # - title: Made Mistakes
   #   url: http://mademistakes.com
   #   external: true
