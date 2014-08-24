@@ -1,7 +1,7 @@
 title:            mrknmc
 # description:      Describe your website.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://mrknmc.com
+# url:              http://mrknmc.com
 # disqus_shortname:
 
 # Owner/author information
@@ -11,13 +11,13 @@ owner:
   bio:            "Tech fan. Student at The University of Edinburgh."
   email:          mrknmc@me.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:        mrknmc
-  # facebook:
   github:         mrknmc
+  twitter:        mrknmc
+  instagram:      mrknmc
+  lastfm:         blinker_svk
+  # facebook:
   # stackoverflow:
   # linkedin:
-  instagram:      mrknmc
-  # lastfm:
   # tumblr:
   # pinterest:
   # foursquare:
@@ -38,7 +38,7 @@ links:
   - title: About
     url: /about/
   - title: Blog
-    url: /posts/
+    url: /blog/
   # - title: Theme Setup
   #   url: /theme-setup/
   # - title: Made Mistakes

@@ -1,9 +1,9 @@
 ---
 layout: home
-description: "A responsive Jekyll theme with editorial tendencies by designer Michael Rose."
+description: "A blog."
 tags: [Jekyll, theme, responsive, blog, template]
 image:
-  feature: texture-feature-01.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
+  feature: blur.jpg
+  credit: Matt Aceino, dsktps.com
+  creditlink: http://www.dsktps.com/2014/07/blurred-out-by-matt-aceino/#download
 ---
