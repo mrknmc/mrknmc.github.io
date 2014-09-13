@@ -39,6 +39,8 @@ links:
     url: /blog/
   - title: Feed
     url: /feed.xml
+  - title: Resume
+    url: /resume/
   # - title: Made Mistakes
   #   url: http://mademistakes.com
   #   external: true
