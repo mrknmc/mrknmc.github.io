@@ -1,5 +1,6 @@
 ---
 layout: post
+published: false
 title: Syntax Highlighting Post
 description: "Demo post displaying the various ways of highlighting code in Markdown."
 tags: [sample post, code, highlighting]
@@ -117,4 +118,3 @@ end
 
 An example of a Gist embed below.
 
-{% gist mmistakes/6589546 %}

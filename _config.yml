@@ -1,43 +1,52 @@
-title:            Minimal Mistakes
-description:      A responsive Jekyll theme large featured images and solid typography.
-#Comment out url when working locally to resolve base urls correctly
-url:              http://mmistakes.github.io/minimal-mistakes
-disqus_shortname:
+title:            mrknmc
+description:      A blog.
+# Your site's domain goes here. Leave localhost server or blank when working locally.
+url:              http://mrknmc.com
+# disqus_shortname:
 
 # Owner/author information
 owner:
-  name:           Michael Rose
+  name:           Mark Nemec
   avatar:         bio-photo.jpg
-  bio:            "Just another boring, time traveling, tattooed, designer from Buffalo New York."
-  email:          michael@mademistakes.com
+  bio:            "Tech fan. Student at The University of Edinburgh."
+  email:          mrknmc@me.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:        "mmistakes"
-  github:         "mmistakes"
-  instagram:      "mmistakes"
+  github:         mrknmc
+  twitter:        mrknmc
+  instagram:      mrknmc
+  lastfm:         blinker_svk
+  foursquare:     mrknmc
+  # facebook:
+  # stackoverflow:
+  # linkedin:
+  # tumblr:
+  # pinterest:
+  # steam:
+  # dribbble:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    "MichaelRoseDesign"
+  # google_plus:
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   UA-2011187-3
-google_verify:      UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y
+google_analytics: UA-48198813-1
+# google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:        D81F4C18A6CB3018F64D7C827D953DFD
+# bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
-    url: /about/
-  - title: Posts
-    url: /posts/
-  - title: Theme Setup
-    url: /theme-setup/
-  - title: Made Mistakes
-    url: http://mademistakes.com
-    external: true
+  - title: Blog
+    url: /blog/
+  - title: Feed
+    url: /feed.xml
+  - title: Resume
+    url: /resume/
+  # - title: Made Mistakes
+  #   url: http://mademistakes.com
+  #   external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Europe/London
 future:      true
 highlighter: pygments
 markdown:    kramdown
@@ -53,7 +62,7 @@ kramdown:
   use_coderay: false
 
   coderay:
-    coderay_line_numbers: 
+    coderay_line_numbers:
     coderay_line_numbers_start: 1
     coderay_tab_width: 4
     coderay_bold_every: 10

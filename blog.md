@@ -1,7 +1,9 @@
 ---
-layout: home
-description: "A blog."
-tags: [Jekyll, theme, responsive, blog, template]
+layout: post-index
+permalink: /blog/
+title: All Posts
+tagline: A List of Posts
+tags: [blog]
 image:
   feature: blur.jpg
   credit: Matt Aceino, dsktps.com
