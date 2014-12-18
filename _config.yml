@@ -1,7 +1,7 @@
 title:            mrknmc
 description:      A blog.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://mrknmc.com
+url:              # http://mrknmc.com
 # disqus_shortname:
 
 # Owner/author information
@@ -41,9 +41,6 @@ links:
     url: /feed.xml
   - title: Resume
     url: /resume/
-  # - title: Made Mistakes
-  #   url: http://mademistakes.com
-  #   external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/London
