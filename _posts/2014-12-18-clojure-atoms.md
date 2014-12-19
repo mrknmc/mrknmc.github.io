@@ -14,15 +14,13 @@ image:
 
 <script src="http://www.sveido.com/mermaid/dist/mermaid.full.min.js"></script>
 
-<!-- image of an actual atom, hehe :D -->
-
 Data structures in Clojure are immutable. This is so that programs written in Clojure are more functional and hence more robust. To provide mutable state, Clojure provides four reference types: [vars](http://clojure.org/vars), [refs](http://clojure.org/refs), [agents](http://clojure.org/agents), and [atoms](http://clojure.org/atoms). In this post I will focus on atoms.
 
 The Clojure website describes atoms as follows:
 
 > Atoms provide a way to manage shared, synchronous, independent state.
 
-Let's break this statement up and go through it.
+Let's break this down.
 
 ### Shared state
 
@@ -50,6 +48,40 @@ A typical example where this is not true is moving money between bank accounts. 
 <!-- ^ this phrasing is weird -->
 
 A good example of where you could use an atom is a counter.
+
+### Creating an atom
+
+Creating a counter is easy, you simply use the `atom` function:
+
+{% highlight clojure %}
+
+user=> (atom 0)
+#<Atom@5b72fb19: 0>
+
+{% endhighlight %}
+
+### Reading an atom
+
+To read the current value associated with  you can either use the `@` reader macro or the `deref` function:
+
+{% highlight clojure %}
+
+user=> @(atom 0)
+0
+user=> (deref (atom 0))
+0
+
+{% endhighlight %}
+
+### Updating an atom
+
+{% highlight clojure %}
+
+user=> (swap! (atom 0) inc)
+1
+
+{% endhighlight %}
+
 
 ### Example
 
