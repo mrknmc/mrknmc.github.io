@@ -90,7 +90,7 @@ As you can see, atoms can be very powerful even though working with them is quit
 
 https://twitter.com/nathanmarz/status/106051181226364928
 
-## Notes
+<!-- ## Notes -->
 
 [1]: http://clojure.org/atoms
 [2]: http://clojure-doc.org/articles/language/concurrency_and_parallelism.html
