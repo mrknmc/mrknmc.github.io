@@ -4,6 +4,10 @@ highlighter: rouge
 paginate: 5
 language: 'en-uk'
 
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 # Website info
 name: 'mrknmc.com'
 description: ""
@@ -18,7 +22,8 @@ url: 'http://mrknmc.com/'
 image: 'assets/images/mrknmc.png'
 
 short_url: 'mrknmc.com'
-google_analytics: UA-69281367-1
+# TODO: change analytics
+google_analytics: UA-48198813-1
 # disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: /
