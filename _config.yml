@@ -4,9 +4,8 @@ highlighter: rouge
 paginate: 5
 language: 'en-uk'
 
-# kramdown:
-  # input: GFM
-  # syntax_highlighter: rouge
+kramdown:
+  input: GFM
 
 # Website info
 name: 'mrknmc.com'
