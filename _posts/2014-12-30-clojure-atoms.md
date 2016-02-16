@@ -4,6 +4,7 @@ cover: 'assets/images/cover6.jpg'
 title: Clojure Atoms
 date:   2014-12-30 10:18:00
 tags: clojure
+class: 'post-template'
 subclass: 'post tag-programming'
 categories: 'mrknmc'
 navigation: True
